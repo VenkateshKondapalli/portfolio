@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venkatesh Kondapalli | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <h1 class="logo">Venkatesh</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="theme-toggle">
+      <input type="checkbox" id="darkModeToggle" class="toggle-checkbox" />
+      <label for="darkModeToggle" class="toggle-label">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+        <div class="toggle-ball"></div>
+      </label>
+    </div>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="greeting">Hello, I'm</p>
+          <h1>Venkatesh Kondapalli</h1>
+          <h2>Computer Science Student & Developer</h2>
+          <p class="hero-description">
+            Passionate about AI, ML, and building impactful tech solutions.
+            Currently exploring the intersection of technology and innovation.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a
+              href="resume.pdf"
+              class="btn btn-secondary"
+              download="Venkatesh_Kondapalli_Resume"
+            >
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/venkatesh-kondapalli/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/VenkateshKondapalli" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="mailto:venkateshkondapalli18k@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <div class="img-container">
+            <img src="images/profile.jpg" alt="Venkatesh Kondapalli" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-content">
+          <p>
+            I'm a motivated Computer Science student with a strong passion for
+            artificial intelligence, machine learning, and full-stack
+            development. My journey in technology began with curiosity and has
+            evolved into a pursuit of creating meaningful solutions through
+            code.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies,
+            contributing to open-source projects, or participating in
+            hackathons. I believe in continuous learning and pushing boundaries
+            to solve real-world problems.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Technologies Mastered</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">1000+</span>
+              <span class="stat-label">Hours Coding</span>
+            </div>
+          </div>
+    </section>
+
+    <!-- HTML for Skills Section -->
+<section id="skills" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-grid">
+        <!-- Programming Languages -->
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span><i class="fab fa-python" style="color: #3776AB"></i> Python</span>
+            </div>
+            <div class="skill-item">
+              <span><i class="fas fa-copyright" style="color: #00599C"></i> C++</span>
+            </div>
+            <div class="skill-item">
+              <span><i class="fab fa-java" style="color: #007396"></i> Java</span>
+            </div>
+            <div class="skill-item">
+              <span><i class="fab fa-js-square" style="color: #F7DF1E"></i> JavaScript</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Technologies & Frameworks -->
+        <div class="skill-category">
+          <h3><i class="fas fa-cogs"></i> Technologies & Frameworks</h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <span><i class="fab fa-react" style="color: #61DAFB"></i> React</span>
+            </div>
+            <div class="skill-item">
+              <span><i class="fab fa-node-js" style="color: #339933"></i> Node.js</span>
+            </div>
+            <div class="skill-item">
+              <span><i class="fas fa-brain" style="color: #FF6F00"></i> TensorFlow</span>
+            </div>
+            <div class="skill-item">
+              <span><i class="fas fa-project-diagram" style="color: #EE4C2C"></i> PyTorch</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Other Skills -->
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Other Skills</h3>
+          <div class="skills-tags">
+            <span class="skill-tag"><i class="fas fa-robot" style="color: #FF5722"></i> Machine Learning</span>
+            <span class="skill-tag"><i class="fas fa-sitemap" style="color: #4CAF50"></i> Data Structures</span>
+            <span class="skill-tag"><i class="fas fa-comment-dots" style="color: #9C27B0"></i> NLP</span>
+            <span class="skill-tag"><i class="fab fa-git-alt" style="color: #F05032"></i> Git</span>
+            <span class="skill-tag"><i class="fas fa-database" style="color: #4479A1"></i> SQL</span>
+            <span class="skill-tag"><i class="fas fa-lightbulb" style="color: #FFC107"></i> Problem Solving</span>
+            <span class="skill-tag"><i class="fas fa-users" style="color: #4CAF50"></i> Team Leadership</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+            <p class="section-subtitle">Here are some of my recent works</p>
+          </div>
+          
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/news-recommendation.jpg" alt="News Recommendation System">
+              </div>
+              <div class="project-content">
+                <h3>News Article Recommendation System</h3>
+                <p class="project-date">Sept 2024 – Dec 2024</p>
+                <p class="project-description">Built a machine learning model that recommends news articles based on user interests using clustering (K-Means) and NLP techniques.</p>
+                <div class="project-tech">
+                  <span><i class="fab fa-python"></i> Python</span>
+                  <span><i class="fas fa-robot"></i> Scikit-learn</span>
+                  <span><i class="fas fa-language"></i> NLP</span>
+                </div>
+                <div class="project-achievement">
+                  <i class="fas fa-trophy"></i>
+                  <span>Achieved 81% Silhouette Score</span>
+                </div>
+                <a href="https://github.com/VenkateshKondapalli" target="_blank" rel="noopener noreferrer" class="github-btn">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/house.png" alt="House Price Prediction">
+              </div>
+              <div class="project-content">
+                <h3>House Price Prediction</h3>
+                <p class="project-date">Jan 2024 – Mar 2024</p>
+                <p class="project-description">Created a regression/classification model to predict house prices using user-defined preferences with focus on data preprocessing.</p>
+                <div class="project-tech">
+                  <span><i class="fab fa-python"></i> Python</span>
+                  <span><i class="fas fa-robot"></i> Scikit-learn</span>
+                  <span><i class="fas fa-table"></i> Pandas</span>
+                </div>
+                <div class="project-achievement">
+                  <i class="fas fa-trophy"></i>
+                  <span>88.5% Accuracy</span>
+                </div>
+                <a href="https://github.com/VenkateshKondapalli" target="_blank" rel="noopener noreferrer" class="github-btn">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/nmt.png" alt="Neural Machine Translator">
+              </div>
+              <div class="project-content">
+                <h3>Neural Machine Translator</h3>
+                <p class="project-date">Sept 2024 – Dec 2024</p>
+                <p class="project-description">Implemented a Neural Machine Translation system using TensorFlow, PyTorch, and Transformer architecture.</p>
+                <div class="project-tech">
+                  <span><i class="fab fa-python"></i> Python</span>
+                  <span><i class="fas fa-brain"></i> TensorFlow</span>
+                  <span><i class="fas fa-project-diagram"></i> PyTorch</span>
+                </div>
+                <div class="project-achievement">
+                  <i class="fas fa-trophy"></i>
+                  <span>84.1% BLEU Score</span>
+                </div>
+                <a href="https://github.com/VenkateshKondapalli" target="_blank" rel="noopener noreferrer" class="github-btn">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+            
+            <!-- Project 4 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/food-bridge.jpg" alt="Blood Donation Website">
+              </div>
+              <div class="project-content">
+                <h3>Food Bridge</h3>
+                <p class="project-date">Feb 2025 - Apr 2025 </p>
+                <p class="project-description">FoodBridge is a food donation platform connecting supermarkets and restaurants with NGOs to reduce food waste and help communities in need. Built with a focus on social impact, the website enables donors to list surplus food and allows NGOs to request and receive it efficiently. FoodBridge simplifies the donation process while promoting sustainability and compassion.</p>
+                <div class="project-tech">
+                  <span><i class="fab fa-react"></i> React</span>
+                  <span><i class="fab fa-node-js"></i> Node.js</span>
+                  <span><i class="fab fa-database"></i> MongoBD</span>
+                </div>
+                <a href="https://github.com/VenkateshKondapalli" target="_blank" rel="noopener noreferrer" class="github-btn">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+            
+            <!-- Project 5 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/scholarship.jpg" alt="Paperless Scholarship System">
+              </div>
+              <div class="project-content">
+                <h3>Paperless Scholarship System</h3>
+                <p class="project-date">Feb 2025 – Present</p>
+                <p class="project-description">Computer vision-based system using OCR for document verification with watermark detection and signature validation.</p>
+                <div class="project-tech">
+                  <span><i class="fab fa-python"></i> Python</span>
+                  <span><i class="fas fa-eye"></i> OpenCV</span>
+                  <span><i class="fas fa-server"></i> Flask</span>
+                </div>
+                <a href="https://github.com/VenkateshKondapalli" target="_blank" rel="noopener noreferrer" class="github-btn">
+                  <i class="fab fa-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <!-- Add this to your projects section, either as a new project card or alongside existing projects -->
+        <div class="project-card video-cv-card">
+          <div class="project-img video-thumbnail">
+              <img src="images/video-cv-thumbnail.jpg" alt="Video CV Thumbnail">
+              <div class="play-button">
+                  <i class="fas fa-play"></i>
+              </div>
+          </div>
+          <div class="project-content">
+              <h3>Video Curriculum Vitae</h3>
+              <p class="project-date">Created: June 2024</p>
+              <p class="project-description">
+                  A dynamic video presentation showcasing my skills, experience, and personality in a modern format.
+              </p>
+              <div class="project-tech">
+                  <span>Modern Presentation</span>
+                  <span>Visual CV</span>
+              </div>
+              <a href="your-video-link-here" class="btn btn-primary video-btn" target="_blank">
+                  <i class="fas fa-play-circle"></i> Watch Video CV
+              </a>
+          </div>
+      </div>
+      </section>
+
+    <!-- Certifications Section -->
+<section id="certifications" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <h2>Certifications</h2>
+        <div class="underline"></div>
+        <p class="section-subtitle">Professional credentials validating my expertise in AI and machine learning</p>
+      </div>
+      
+      <div class="certifications-grid">
+        <!-- Certification 1 -->
+        <div class="certification-card">
+          <div class="certification-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Generative AI with Large Language Models</h3>
+            <p class="certification-issuer">DeepLearning.AI, AWS (Coursera)</p>
+            <p class="certification-date">Issued: June 2023</p>
+            <div class="certification-badge">
+              <span class="badge">AI Specialization</span>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Certification 2 -->
+        <div class="certification-card">
+          <div class="certification-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Introduction to Generative AI</h3>
+            <p class="certification-issuer">Google Cloud (Coursera)</p>
+            <p class="certification-date">Issued: May 2023</p>
+            <div class="certification-badge">
+              <span class="badge">Fundamentals</span>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Certification 3 -->
+        <div class="certification-card">
+          <div class="certification-icon">
+            <i class="fas fa-language"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Introduction to Large Language Models</h3>
+            <p class="certification-issuer">Google Cloud (Coursera)</p>
+            <p class="certification-date">Issued: July 2023</p>
+            <div class="certification-badge">
+              <span class="badge">LLM Focus</span>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Certification 4 -->
+        <div class="certification-card">
+          <div class="certification-icon">
+            <i class="fas fa-keyboard"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Prompt Engineering for ChatGPT</h3>
+            <p class="certification-issuer">Vanderbilt University (Coursera)</p>
+            <p class="certification-date">Issued: August 2023</p>
+            <div class="certification-badge">
+              <span class="badge">Practical Skills</span>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Certification 5 -->
+        <div class="certification-card">
+          <div class="certification-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Generative AI for Everyone</h3>
+            <p class="certification-issuer">DeepLearning.AI (Coursera)</p>
+            <p class="certification-date">Issued: September 2023</p>
+            <div class="certification-badge">
+              <span class="badge">General Audience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Education</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="education-timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2022 - 2026</div>
+            <div class="timeline-content">
+              <h3>
+                Bachelor of Technology in Computer Science and Engineering
+              </h3>
+              <p class="institution">Lovely Professional University, Punjab</p>
+              <p class="education-description">CGPA: 6.48</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2020 - 2022</div>
+            <div class="timeline-content">
+              <h3>12th Grade (Science Stream)</h3>
+              <p class="institution">Narayana Junior College, Visakhapatnam</p>
+              <p class="education-description">Percentage: 89.2%</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2019 - 2020</div>
+            <div class="timeline-content">
+              <h3>10th Grade</h3>
+              <p class="institution">Narayana High School, Visakhapatnam</p>
+              <p class="education-description">CGPA: 9.8</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="underline"></div>
+          <p class="section-subtitle">
+            Feel free to reach out for collaborations or just to say hello!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Vizianagaram, Andhra Pradesh</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>venkateshkondapalli18k@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+91 93929 66129</p>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <a
+                href="https://www.linkedin.com/in/venkatesh-kondapalli/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/VenkateshKondapalli" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="mailto:venkateshkondapalli18k@gmail.com"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Venkatesh Kondapalli</h2>
+            <p>Computer Science Student & Developer</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fas fa-envelope"></i> venkateshkondapalli18k@gmail.com
+            </p>
+            <p><i class="fas fa-phone-alt"></i> +91 93929 66129</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Venkatesh Kondapalli. All rights reserved.</p>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/in/venkatesh-kondapalli/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/VenkateshKondapalli" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="mailto:venkateshkondapalli18k@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.getElementById("darkModeToggle");
+        const prefersDarkScheme = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        );
+
+        // Check localStorage or prefered color scheme
+        if (
+          localStorage.getItem("theme") === "dark" ||
+          (localStorage.getItem("theme") === null && prefersDarkScheme.matches)
+        ) {
+          document.body.classList.add("dark-mode");
+          toggle.checked = true;
+        }
+
+        // Toggle dark mode
+        toggle.addEventListener("change", function () {
+          if (this.checked) {
+            document.body.classList.add("dark-mode");
+            localStorage.setItem("theme", "dark");
+          } else {
+            document.body.classList.remove("dark-mode");
+            localStorage.setItem("theme", "light");
+          }
+        });
+
+        // Listen for system color scheme changes
+        prefersDarkScheme.addEventListener("change", (e) => {
+          if (localStorage.getItem("theme") === null) {
+            if (e.matches) {
+              document.body.classList.add("dark-mode");
+              toggle.checked = true;
+            } else {
+              document.body.classList.remove("dark-mode");
+              toggle.checked = false;
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
